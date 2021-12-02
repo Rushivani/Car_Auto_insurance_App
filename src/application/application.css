@@ -1,0 +1,5 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.welcomeAnchorPane{
+	-fx-background-image: url('/views/toy-cars-car-insurance-white-background-top-view-mock-up-toy-cars-car-insurance-white-background-top-view-mock-up-141332361.jpg');	
+}

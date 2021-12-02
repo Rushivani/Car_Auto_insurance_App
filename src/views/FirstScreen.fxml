@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" styleClass="welcomeAnchorPane" xmlns="http://javafx.com/javafx/8.0.241" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FirstScreenController">
+   <children>
+      <Button fx:id="btnLogin" layoutX="222.0" layoutY="125.0" mnemonicParsing="false" onAction="#btnLoginClick" text="Admin Login">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnGetAQuote" layoutX="248.0" layoutY="270.0" mnemonicParsing="false" onAction="#btnGetAQuoteClick" text="User">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Label layoutX="188.0" layoutY="242.0" text="Get Auto Insurance Quote" textFill="#e10b0b">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="202.0" layoutY="91.0" text="Manager Insurance App" textFill="#d70a0a">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

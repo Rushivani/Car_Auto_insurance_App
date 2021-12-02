@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="600.0" style="-fx-background-color: lightblue;" styleClass="welcomeAnchorPane" xmlns="http://javafx.com/javafx/8.0.241" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.BuyQuoteController">
+   <children>
+      <Label fx:id="lblUserName" layoutX="109.0" layoutY="28.0" text="{Name Tag}" textFill="#c60808" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuotePrice" layoutX="261.0" layoutY="77.0" text="{PRICE}">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="80.0" text="Your Quote for 6 Months is : " underline="true">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="106.0" layoutY="131.0" text="Your Monthly Price Is: " underline="true">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblQuotePrice1" layoutX="260.0" layoutY="127.0" text="{PRICE}">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="192.0" text="Policy Coverage : " underline="true">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="225.0" layoutY="192.0" text="Liability Coverage : 25,000/50,000 (Per Person, Per Accident)">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="25.0" layoutY="28.0" text="Welcome" textFill="#e10909">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="btnBUYQUOTE" layoutX="205.0" layoutY="453.0" mnemonicParsing="false" onAction="#btnBUYQUOTE_click" text="Buy a Quote">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="225.0" layoutY="224.0" text="Collision Coverage : $500 Deductible">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="225.0" layoutY="257.0" text="Comprehensive Coverage : $500 Deductible">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="225.0" layoutY="293.0" text="Emergency Road Service Coverage">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <TextField layoutX="213.0" layoutY="346.0" />
+      <TextField layoutX="213.0" layoutY="399.0" />
+      <Label layoutX="75.0" layoutY="350.0" text="Bank Account Number" underline="true">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="107.0" layoutY="403.0" text="Routing Number" underline="true">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
